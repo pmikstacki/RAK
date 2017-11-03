@@ -16,7 +16,7 @@ namespace BRAIN.Actions
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public List<string> Dominants { get; set; } = new List<string> {"Cześć", "Hi", "Hello"};
+        public List<string> Dominants { get; set; } = new List<string> {"czesc", "wita", "elo"};
 
         public void Execute(object argument)
         {

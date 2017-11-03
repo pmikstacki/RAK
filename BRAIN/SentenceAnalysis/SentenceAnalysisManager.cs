@@ -1,24 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using BRAIN.Actions;
+using NLog.Targets;
 
 namespace BRAIN.SentenceAnalysis
 {
-    internal class SentenceAnalysisManager
+    public class SentenceAnalysisManager
     {
-        public List<string> SimplifyOutput(string Sentence)
+        public void Analyze(string Sentence)
         {
+            Console.WriteLine("Analizuję zdanie "+Sentence);
+            Console.WriteLine("Zdanie po depolsyfikacji: "+DePolish(Sentence));
             Parallel.ForEach<string>(DePolish(Sentence).Split(new string[] {" "}, StringSplitOptions.RemoveEmptyEntries), x =>
             {
-                Parallel.ForEach
+                Console.WriteLine("sprawdzam dominantę dla "+x);
+                Parallel.ForEach<IAction>(ActionManager.Actions, a =>
+                {
+                    if (a.Dominants.Any(s => x.Contains(DePolish(s))))
+                    {
+                        Console.WriteLine("Znalazłem dominantę dla akcji: "+a.Name);
+                        a.Execute(Sentence);
+                    }
+                });
             });
-            throw new Exception("String is empty!");
+            
         }
 
         private string DePolish(string Sentence)
         {
             return Sentence.ToLower().Replace('ą', 'a').Replace('ł', 'l').Replace('ż', 'z').Replace('ź', 'z')
-                .Replace('ó', 'o').Replace('ś', 's').Replace('ć', 'c');
+                .Replace('ó', 'o').Replace('ś', 's').Replace('ć', 'c').Replace(",", "").Replace(".", "");
         }
     }
 }
