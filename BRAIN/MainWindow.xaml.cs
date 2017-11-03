@@ -11,13 +11,13 @@ namespace BRAIN
     /// </summary>
     public partial class MainWindow : Window
     {
-        public SentenceAnalysisManager SentenceAnaliser;
+        public SentenceAnalysisManager SentenceAnalyzer;
         public MainWindow()
         {
             InitializeComponent();
             var l = new Listener();
             var m = new ActionManager();
-            SentenceAnaliser = new SentenceAnalysisManager();
+            SentenceAnalyzer = new SentenceAnalysisManager();
         }
 
         private void OnListenDown(object sender, MouseButtonEventArgs e)
@@ -28,7 +28,7 @@ namespace BRAIN
         {
             if (e.Key == Key.Enter)
             {
-                SentenceAnaliser.Analyze("czesc i witam lol");
+                SentenceAnalyzer.Analyze("cześć i witamy lol");
                 
 
             }
