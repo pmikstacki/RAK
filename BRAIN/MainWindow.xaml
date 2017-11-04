@@ -14,16 +14,8 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" x:Name="textWindow" Margin="0,0,0,-446" Height="81"
                         VerticalAlignment="Bottom">
-                <TextBox x:Name="textbubble"  Width="416" KeyUp="KeyUp">
-                    <TextBox.Template>
-                        <ControlTemplate TargetType="{x:Type TextBox}">
-                            <Grid>
-                                <Rectangle RadiusX="35" RadiusY="35" StrokeThickness="0" Fill="#FF767676" />
-                                <TextBox Margin="10" Text="{TemplateBinding Text}" FontSize="24" BorderThickness="0"
-                                         Background="#FF767676" />
-                            </Grid>
-                        </ControlTemplate>
-                    </TextBox.Template>
+                <TextBox x:Name="textbubble"  Text=""  Width="416" KeyUp="KeyUp">
+                  
                 </TextBox>
                 <Rectangle MouseLeftButtonDown="OnListenDown" RadiusX="100" RadiusY="100" Fill="Gainsboro" Width="80" />
             </StackPanel>

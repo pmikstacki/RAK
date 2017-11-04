@@ -34,10 +34,10 @@ namespace BRAIN.SentenceAnalysis
                 if (dominants.Any(l => l.actionName == action.Name))
                 {
                     dominants.Find(o => o.actionName == action.Name).count += 1;
+                    return true;
                 }
                 else
                 {
-                    Console.WriteLine("Nie znaleziono....");
                     return false;
                 }
                 return false;

@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using BRAIN.Actions;
@@ -28,9 +29,8 @@ namespace BRAIN
         {
             if (e.Key == Key.Enter)
             {
-                SentenceAnalyzer.Analyze("cześć i witamy lol");
-                
-
+                Console.WriteLine(textbubble.Text);
+                SentenceAnalyzer.Analyze(textbubble.Text);
             }
         }
     }
