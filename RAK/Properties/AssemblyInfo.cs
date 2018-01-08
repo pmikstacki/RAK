@@ -1,14 +1,17 @@
 ﻿using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Windows;
 
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("BRAIN")]
+[assembly: AssemblyTitle("RAK")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BRAIN")]
+[assembly: AssemblyProduct("RAK")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -30,11 +33,11 @@ using System.Runtime.InteropServices;
 
 [assembly: ThemeInfo(
     ResourceDictionaryLocation.None, //gdzie znajdują się słowniki zasobów specyficznych dla motywów
-    //(używane, jeśli nie można odnaleźć zasobu na stronie,
-    // lub słowniki zasobów aplikacji)
+                                     //(używane, jeśli nie można odnaleźć zasobu na stronie,
+                                     // lub słowniki zasobów aplikacji)
     ResourceDictionaryLocation.SourceAssembly //gdzie znajduje się słownik zasobów ogólnych
-    //(używane, jeśli nie można odnaleźć zasobu na stronie,
-    // aplikacji lub słowników zasobów specyficznych dla motywów)
+                                              //(używane, jeśli nie można odnaleźć zasobu na stronie,
+                                              // aplikacji lub słowników zasobów specyficznych dla motywów)
 )]
 
 

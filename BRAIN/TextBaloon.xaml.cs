@@ -1,6 +1,4 @@
-﻿using System.Windows.Controls;
-
-namespace BRAIN
+﻿namespace BRAIN
 {
     /// <summary>
     ///     Logika interakcji dla klasy TextBaloon.xaml

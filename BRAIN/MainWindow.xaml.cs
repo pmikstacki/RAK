@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Input;
 using BRAIN.Actions;
 using BRAIN.SentenceAnalysis;
+using BRAIN.VoiceInput;
 
 namespace BRAIN
 {
@@ -13,6 +11,7 @@ namespace BRAIN
     public partial class MainWindow : Window
     {
         public SentenceAnalysisManager SentenceAnalyzer;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -23,6 +22,8 @@ namespace BRAIN
 
         private void OnListenDown(object sender, MouseButtonEventArgs e)
         {
+            var vi = new VoiceI();
+            vi.Show();
         }
 
         private void KeyUp(object sender, KeyEventArgs e)

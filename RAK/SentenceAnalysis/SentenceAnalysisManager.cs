@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BRAIN.Actions;
+using RAK.Actions;
 
-namespace BRAIN.SentenceAnalysis
+namespace RAK.SentenceAnalysis
 {
     public class SentenceAnalysisManager
     {
@@ -14,19 +14,23 @@ namespace BRAIN.SentenceAnalysis
 
             Console.WriteLine("Analizuję zdanie " + Sentence);
             Console.WriteLine("Zdanie po depolsyfikacji: " + DePolish(Sentence));
-            Parallel.ForEach(DePolish(Sentence).Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries), x =>
+            foreach (string x in DePolish(Sentence).Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries))
             {
                 Console.WriteLine("sprawdzam dominantę dla " + x);
-                Parallel.ForEach(ActionManager.Actions, a =>
+                foreach (IAction a in ActionManager.Actions)
                 {
                     if (a.Dominants.Any(s => x.Contains(DePolish(s))))
                     {
+                        a.Execute(new object());
                         Console.WriteLine("Znalazłem dominantę dla akcji: " + a.Name + ", słowo: " + x);
                         if (!Exists(a))
                             dominants.Add(new dominant {actionName = a.Name});
+
+
+
                     }
-                });
-            });
+                }
+            }
 
             bool Exists(IAction action)
             {

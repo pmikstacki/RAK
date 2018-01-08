@@ -1,6 +1,4 @@
-﻿using System.Windows;
-
-namespace BRAIN
+﻿namespace BRAIN
 {
     /// <summary>
     ///     Logika interakcji dla klasy App.xaml
