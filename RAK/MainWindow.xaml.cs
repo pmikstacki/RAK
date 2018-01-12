@@ -7,7 +7,7 @@ using RAK.Actions;
 namespace RAK
 {
     /// <summary>
-    ///     Logika interakcji dla klasy MainWindow.xaml
+    ///     Main App View. It features a chat window and manages all other components.
     /// </summary>
     public partial class MainWindow : Window
     {

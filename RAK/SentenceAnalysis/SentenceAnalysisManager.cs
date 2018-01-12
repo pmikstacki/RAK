@@ -7,7 +7,12 @@ using RAK.Actions;
 namespace RAK.SentenceAnalysis
 {
     public class SentenceAnalysisManager
-    {
+    {   
+        /// <summary>
+        /// Analizuje Treść podanego zdania, depolsyfikuje (usuwa polskie znaki)
+        /// oraz wykonuje podaną/e akcję/e
+        /// <param name="Sentence">Zdanie do przetworzenia</param>
+        /// </summary>
         public void Analyze(string Sentence)
         {
             var dominants = new List<dominant>();

@@ -17,10 +17,15 @@ using System.Windows.Shapes;
 namespace RAK
 {
     /// <summary>
-    /// Logika interakcji dla klasy bubble.xaml
+    ///     Klasa reprezentuje objekt dymku.
     /// </summary>
     public partial class bubble : UserControl
     {
+        /// <summary>
+        /// Konstruktor klasy bubble
+        /// </summary>
+        /// <param name="msg">wiadomośc do wyświetlenia w dymku</param>
+        /// <param name="userinput">sprawdza czy dymek jest napisany przez użytkownika lub bota</param>
         public bubble(string msg, bool userinput)
         {
             InitializeComponent();

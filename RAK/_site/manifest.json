@@ -1,0 +1,251 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/jatom/source/repos/BRAIN/RAK",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "y38+aK06Fp5zuijRXlx/1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "QFCYywcVDnyberIGtpreUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xVlQaX7Tk85omoiWv3O+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QrwWo9/8Mm2db+Utwc8mlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Actions.ActionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Actions.ActionManager.html",
+          "hash": "eF6Rlc0l4E890moMfOgQxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Actions.IAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Actions.IAction.html",
+          "hash": "Vbua2A7TC4fXq2yHPN4Gbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Actions.html",
+          "hash": "YJYZHY7l7bUK6ka5ZIfvjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.App.html",
+          "hash": "bQ/U28gJ+NQohSmTBOOWSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Listener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Listener.html",
+          "hash": "xT2BoOxza4DQyOBJn/59ug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.MainWindow.html",
+          "hash": "QTrx64FMuNxq8rHwPLgDxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.SentenceAnalysis.SentenceAnalysisManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.SentenceAnalysis.SentenceAnalysisManager.html",
+          "hash": "UXVapV+W94aiSJxXiN5g1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.SentenceAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.SentenceAnalysis.html",
+          "hash": "mC83z4GRScVKp6s5LE86GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Speaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Speaker.html",
+          "hash": "GQIm70vHUb+47OzudDZMrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.bubble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.bubble.html",
+          "hash": "iPqXcAZmIOMgpvvy826Akg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.html",
+          "hash": "SFFzB/d23xydRJLwy7DfZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "kpOlU9nUr03EYdfzDBYf3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "frPdeW5hGroGiyexwMQIhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

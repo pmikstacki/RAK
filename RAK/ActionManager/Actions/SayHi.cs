@@ -3,10 +3,13 @@ using System.Collections.Generic;
 
 namespace RAK.Actions
 {
-    
+    /// <summary>
+    /// Klasa odpowiadająca za akcję mówienia cześć
+    /// </summary>
     internal class SayHi : IAction
     {
         Random r = new Random();
+        
         public SayHi()
         {
             Id = 1;
@@ -16,8 +19,8 @@ namespace RAK.Actions
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
 
+        public string Description { get; set; }
         public List<string> Dominants { get; set; } = new List<string> {"czesc", "wita", "elo"};
         public void Execute(object argument)
         {
