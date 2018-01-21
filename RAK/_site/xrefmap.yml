@@ -103,6 +103,24 @@ references:
   commentId: Overload:RAK.Actions.IAction.Name
   fullName: RAK.Actions.IAction.Name
   nameWithType: IAction.Name
+- uid: RAK.Actions.ScriptProvider
+  name: ScriptProvider
+  href: api/RAK.Actions.ScriptProvider.html
+  commentId: T:RAK.Actions.ScriptProvider
+  fullName: RAK.Actions.ScriptProvider
+  nameWithType: ScriptProvider
+- uid: RAK.Actions.ScriptProvider.AddMessage(System.String)
+  name: AddMessage(String)
+  href: api/RAK.Actions.ScriptProvider.html#RAK_Actions_ScriptProvider_AddMessage_System_String_
+  commentId: M:RAK.Actions.ScriptProvider.AddMessage(System.String)
+  fullName: RAK.Actions.ScriptProvider.AddMessage(System.String)
+  nameWithType: ScriptProvider.AddMessage(String)
+- uid: RAK.Actions.ScriptProvider.AddMessage*
+  name: AddMessage
+  href: api/RAK.Actions.ScriptProvider.html#RAK_Actions_ScriptProvider_AddMessage_
+  commentId: Overload:RAK.Actions.ScriptProvider.AddMessage
+  fullName: RAK.Actions.ScriptProvider.AddMessage
+  nameWithType: ScriptProvider.AddMessage
 - uid: RAK.App
   name: App
   href: api/RAK.App.html

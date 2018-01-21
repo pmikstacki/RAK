@@ -29,7 +29,8 @@ namespace RAK
 
         private void OnListenDown(object sender, MouseButtonEventArgs e)
         {
-
+                Dispatcher.Invoke(() => MessagesWindow.Children.Add(new bubble(textbubble.Text, true)));
+                SentenceAnalyzer.Analyze(textbubble.Text);
         }
 
         public void AddMessage(string message, bool userInput)
@@ -48,6 +49,17 @@ namespace RAK
                 Dispatcher.Invoke(() => MessagesWindow.Children.Add(new bubble(textbubble.Text, true)));
                 SentenceAnalyzer.Analyze(textbubble.Text);
             }
+        }
+
+        private void MainWindow_OnMouseDown(object sender, MouseButtonEventArgs e)
+        {
+                if (e.ChangedButton == MouseButton.Left)
+                    this.DragMove();
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

@@ -60,7 +60,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RAK.Actions.ActionManager.html",
-          "hash": "eF6Rlc0l4E890moMfOgQxw=="
+          "hash": "CeZqX2cCglBdx31oRtfZ4w=="
         }
       },
       "is_incremental": true,
@@ -80,11 +80,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/RAK.Actions.ScriptProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RAK.Actions.ScriptProvider.html",
+          "hash": "RC2vxJ0vyP+WFzAOl9gVWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/RAK.Actions.yml",
       "output": {
         ".html": {
           "relative_path": "api/RAK.Actions.html",
-          "hash": "YJYZHY7l7bUK6ka5ZIfvjA=="
+          "hash": "LAS57H2Wp2pXYcDIaWDDcg=="
         }
       },
       "is_incremental": true,
@@ -123,7 +135,7 @@
           "hash": "QTrx64FMuNxq8rHwPLgDxQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,10 +144,10 @@
       "output": {
         ".html": {
           "relative_path": "api/RAK.SentenceAnalysis.SentenceAnalysisManager.html",
-          "hash": "UXVapV+W94aiSJxXiN5g1A=="
+          "hash": "aqQJeHUyKyjYAJDr3P7zhQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -147,7 +159,7 @@
           "hash": "mC83z4GRScVKp6s5LE86GA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RAK.bubble.html",
-          "hash": "iPqXcAZmIOMgpvvy826Akg=="
+          "hash": "s3CHea0XeRyC4fZGzZXxLw=="
         }
       },
       "is_incremental": true,
@@ -180,10 +192,10 @@
       "output": {
         ".html": {
           "relative_path": "api/RAK.html",
-          "hash": "SFFzB/d23xydRJLwy7DfZQ=="
+          "hash": "NRi8uo9BZXsHOmfbf5/Kkw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "kpOlU9nUr03EYdfzDBYf3w=="
+          "hash": "jkeBAdmZwSv1+Duz+SFbFw=="
         }
       },
       "is_incremental": false,
@@ -223,11 +235,11 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         }

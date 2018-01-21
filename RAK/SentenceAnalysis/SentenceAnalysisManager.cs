@@ -24,6 +24,7 @@ namespace RAK.SentenceAnalysis
                 Console.WriteLine("sprawdzam dominantę dla " + x);
                 foreach (IAction a in ActionManager.Actions)
                 {
+                    Console.WriteLine(a.Name);
                     if (a.Dominants.Any(s => x.Contains(DePolish(s))))
                     {
                         a.Execute(new object());
